@@ -16,15 +16,15 @@ class Login extends React.Component {
 							<form>
 								<div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
 									<p className="lead fw-normal mb-0 me-3">Sign in with</p>
-									<button type="button" className="btn btn-primary btn-floating mx-1">
+									<button type="button" className="btn btn-info btn-floating mx-1">
 										<i className="fab fa-facebook-f"></i>
 									</button>
 
-									<button type="button" className="btn btn-primary btn-floating mx-1">
+									<button type="button" className="btn btn-info btn-floating mx-1">
 										<i className="fab fa-twitter"></i>
 									</button>
 
-									<button type="button" className="btn btn-primary btn-floating mx-1">
+									<button type="button" className="btn btn-info btn-floating mx-1">
 										<i className="fab fa-linkedin-in"></i>
 									</button>
 								</div>
@@ -55,7 +55,7 @@ class Login extends React.Component {
 								</div>
 
 								<div className="text-center text-lg-start mt-4 pt-2">
-									<button type="button" className="btn btn-primary btn-lg"
+									<button type="button" className="btn btn-info btn-lg"
 										style={{
 											paddingLeft: "2.5rem",
 											paddingRight: "2.5rem"
@@ -68,8 +68,8 @@ class Login extends React.Component {
 					</div>
 				</div>
 				<div
-					className="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary" >
-					<div className="text-white mb-3 mb-md-0">
+					className="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-info" >
+					{/* <div className="text-white mb-3 mb-md-0">
 						Copyright © 2020. All rights reserved.
 					</div>
 					<div>
@@ -85,7 +85,7 @@ class Login extends React.Component {
 						<a href="#!" className="text-white">
 							<i className="fab fa-linkedin-in"></i>
 						</a>
-					</div>
+					</div> */}
 
 				</div>
 			</section>
