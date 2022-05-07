@@ -9,39 +9,23 @@ class Login extends React.Component {
 				<div className="container-fluid h-custom">
 					<div className="row d-flex justify-content-center align-items-center h-100">
 						<div className="col-md-9 col-lg-6 col-xl-5">
-							<img src="Login.png"
-								className="img-fluid" alt="Sample image" />
+							<img src="blue icon.png"
+								className="image" alt="Sample image" />
 						</div>
 						<div className="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
 							<form>
-								{/* <div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
-									<p className="lead fw-normal mb-0 me-3">Sign in with</p>
-									<button type="button" className="btn btn-info btn-floating mx-1">
-										<i className="fab fa-facebook-f"></i>
-									</button>
-
-									<button type="button" className="btn btn-info btn-floating mx-1">
-										<i className="fab fa-twitter"></i>
-									</button>
-
-									<button type="button" className="btn btn-info btn-floating mx-1">
-										<i className="fab fa-linkedin-in"></i>
-									</button>
-								</div>
-
-								<div className="divider d-flex align-items-center my-4">
-									<p className="text-center fw-bold mx-3 mb-0">Or</p>
-								</div> */}
 
 								<div className="form-outline mb-4">
+								<label className="form-label" htmlFor="form3Example3">Email address</label>
 									<input type="email" id="form3Example3" className="form-control form-control-lg"
 										placeholder="Enter a valid email address" />
-									<label className="form-label" htmlFor="form3Example3">Email address</label>
+									
 								</div>
 								<div className="form-outline mb-3">
+								<label className="form-label" htmlFor="form3Example4">Password</label>
 									<input type="password" id="form3Example4" className="form-control form-control-lg"
 										placeholder="Enter password" />
-									<label className="form-label" htmlFor="form3Example4">Password</label>
+									
 								</div>
 
 								<div className="d-flex justify-content-between align-items-center">
@@ -67,27 +51,7 @@ class Login extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div
-					className="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 color-bg" >
-					{/* <div className="text-white mb-3 mb-md-0">
-						Copyright © 2020. All rights reserved.
-					</div>
-					<div>
-						<a href="#!" className="text-white me-4">
-							<i className="fab fa-facebook-f"></i>
-						</a>
-						<a href="#!" className="text-white me-4">
-							<i className="fab fa-twitter"></i>
-						</a>
-						<a href="#!" className="text-white me-4">
-							<i className="fab fa-google"></i>
-						</a>
-						<a href="#!" className="text-white">
-							<i className="fab fa-linkedin-in"></i>
-						</a>
-					</div> */}
-
-				</div>
+				
 			</section>
 		);
 	}
